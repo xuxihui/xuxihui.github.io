@@ -6,15 +6,15 @@
   
   <title>常见报错 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="常见错误1:">
+  <meta name="description" content="常见错误1:RuntimeError: rnn: hx is not contiguous解决方法：将代码中的transpose操作后面接上contiguous()">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常见报错">
 <meta property="og:url" content="https://xuxihui.github.io/2022/01/13/%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="常见错误1:">
+<meta property="og:description" content="常见错误1:RuntimeError: rnn: hx is not contiguous解决方法：将代码中的transpose操作后面接上contiguous()">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-01-13T12:04:18.000Z">
-<meta property="article:modified_time" content="2022-01-13T12:09:20.786Z">
+<meta property="article:modified_time" content="2022-01-13T12:43:38.122Z">
 <meta property="article:author" content="xuxihui">
 <meta name="twitter:card" content="summary">
   
@@ -95,7 +95,7 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>常见错误1:</p>
+        <p>常见错误1:RuntimeError: rnn: hx is not contiguous<br>解决方法：<br>将代码中的transpose操作后面接上contiguous()</p>
 
       
     </div>
